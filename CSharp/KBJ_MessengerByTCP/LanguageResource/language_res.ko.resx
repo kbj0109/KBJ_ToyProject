@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strButtonClient" xml:space="preserve">
+    <value>손님</value>
+    <comment>MainWindow에서 사용</comment>
+  </data>
+  <data name="strButtonConfirm" xml:space="preserve">
+    <value>실행</value>
+    <comment>EntryForClient</comment>
+  </data>
+  <data name="strButtonConfirmPortNumber" xml:space="preserve">
+    <value>실행</value>
+    <comment>EntryForServer</comment>
+  </data>
+  <data name="strButtonServer" xml:space="preserve">
+    <value>운영자</value>
+    <comment>MainWindow에서 사용</comment>
+  </data>
+  <data name="strButtonToSendMessage" xml:space="preserve">
+    <value>전송</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strExceptionMessageConnectionRefusedAtEntrance" xml:space="preserve">
+    <value>입력하신 정보에 유효한 서버가 없습니다.</value>
+    <comment>ClientMessenger</comment>
+  </data>
+  <data name="strExceptionMessagePortNumberAlreadyUsed" xml:space="preserve">
+    <value>이미 사용 중인 포트 번호 입니다.</value>
+    <comment>EntryForServer</comment>
+  </data>
+  <data name="strLabelIPAddress" xml:space="preserve">
+    <value>접속 IP주소?</value>
+    <comment>EntryForClient</comment>
+  </data>
+  <data name="strlabelPortNumber" xml:space="preserve">
+    <value>포트 번호?</value>
+    <comment>EntryForServer</comment>
+  </data>
+  <data name="strLabelUserName" xml:space="preserve">
+    <value>사용자 이름?</value>
+    <comment>EntryForClient</comment>
+  </data>
+  <data name="strMessageToNotifyClientIsDisconnectedFromServer" xml:space="preserve">
+    <value>서버와의 연결이 끊겼습니다.</value>
+    <comment>ClientMessenger</comment>
+  </data>
+  <data name="strMessageToNotifyClientJoinedServer" xml:space="preserve">
+    <value>입장 하였습니다.</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strMessageToNotifyClientLeftServer" xml:space="preserve">
+    <value>퇴장 하였습니다.</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strMessageToNotifyServerIsClosed" xml:space="preserve">
+    <value>서버가 종료 되었습니다.</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strMessageToNotifyServerIsOpened" xml:space="preserve">
+    <value>서버가 준비되었습니다.</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strMessageToValidatePortNumber" xml:space="preserve">
+    <value>포트 번호를 확인 해주세요.</value>
+    <comment>EntryForServer</comment>
+  </data>
+  <data name="strMessageToValidateRequiredInfoToConnectServer" xml:space="preserve">
+    <value>필요한 모든 정보를 입력 해주세요.</value>
+    <comment>ClientMessenger</comment>
+  </data>
+  <data name="strSentTime" xml:space="preserve">
+    <value>전송</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strServerManager" xml:space="preserve">
+    <value>운영자</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strTitleEntryForClient" xml:space="preserve">
+    <value>손님으로 실행하기</value>
+    <comment>EntryForClient</comment>
+  </data>
+  <data name="strTitleEntryForServer" xml:space="preserve">
+    <value>운영자로 실행하기</value>
+    <comment>EntryForServer</comment>
+  </data>
+  <data name="strTitleForClientMessenger" xml:space="preserve">
+    <value>Messenger (손님)</value>
+    <comment>ClientMessenger</comment>
+  </data>
+  <data name="strTitleForServerMessenger" xml:space="preserve">
+    <value>Messenger (운영자)</value>
+    <comment>ServerMessenger</comment>
+  </data>
+  <data name="strTitleMainWindow" xml:space="preserve">
+    <value>실행 역할을 선택 해주세요.</value>
+    <comment>MainWindow에서 사용</comment>
+  </data>
+  <data name="strEmailBody" xml:space="preserve">
+    <value>메신저의 모든 대화 파일 첨부, 저장경로는 </value>
+    <comment>EmailHandler</comment>
+  </data>
+  <data name="strEmailSubject" xml:space="preserve">
+    <value>메신저의 모든 대화 내용 입니다.</value>
+    <comment>EmailHandler</comment>
+  </data>
+  <data name="strExceptionMessageDBInsertFailed" xml:space="preserve">
+    <value>오라클 DB에 메세지 데이터 입력을 실패 했습니다.</value>
+    <comment>DatabaseHandler</comment>
+  </data>
+  <data name="strExceptionMessageSendingEmailFailed" xml:space="preserve">
+    <value>메세지 데이터를 포함한 이메일 전송을 실패 했습니다.</value>
+    <comment>EmailHandler</comment>
+  </data>
+  <data name="strMessageToNotifyXmlFileIsSavedAt" xml:space="preserve">
+    <value>메세지 데이터가 XML 파일로 바탕화면에 저장 되었습니다.</value>
+    <comment>XMLHandlerForMessage</comment>
+  </data>
+</root>

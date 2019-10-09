@@ -1,0 +1,44 @@
+# =============== #
+# Unity generated # 
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db 
+Thumbs.db
+
+#KBJ#
+**/.vs/
+**/bin/
+
+
+# ============ #
+# Java #
+# ============ #
+**/.metadata/
+**/target/
+*.class
+.prefs
+.classpath
+**/.settings/
+
+
+# ============ #
+# React #
+# ============ #
+**/node_modules/
+**/.vscode
+**/Wetube/uploads
+**/Wetube/static
+**/package-lock.json

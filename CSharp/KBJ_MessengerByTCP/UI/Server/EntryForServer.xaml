@@ -1,0 +1,19 @@
+﻿<Window x:Class="KBJ_MessengerByTCP.EntryForServer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KBJ_MessengerByTCP"
+        mc:Ignorable="d"
+        Title="EntryForServer" Height="100" Width="320" ResizeMode="NoResize">
+    <Grid Margin="0 10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.4*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="labelPortNumber" FontSize="14" FontWeight="Bold" Margin="10 0 0 0" Height="30">Port Number?</Label>
+        <TextBox x:Name="textBoxPortNumber" PreviewTextInput="PortNumberValidationTextBox" KeyDown="textBoxPortNumber_KeyDown" MaxLength="4" Grid.Column="1" FontSize="14" Margin="10 0" Width="60" HorizontalAlignment="Left" VerticalAlignment="Center">0109</TextBox>
+        <Button x:Name="buttonConfirmPortNumber" Grid.Column="2" Margin="10 0" Height="30" Click="buttonConfirmPortNumber_Click">Confirm</Button>
+    </Grid>
+</Window>
